@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/container.css" />
+    <link rel="stylesheet" href="./styles/navigation.css" />
+    <link rel="stylesheet" href="./styles/shop.css" />
+    <link rel="stylesheet" href="./styles/default.css" />
+  </head>
+  <body>
+    <section id="navigation">
+      <nav class="shadow">
+        <a href="#">
+          <img src="./assets/logo.png" class="logo" />
+        </a>
+        <img src="./assets/ic_menu.svg" class="menu mobile" />
+        <div class="nav-itens hidden">
+          <a href="#games">Games</a>
+          <a href="#art">Arte</a>
+          <a href="#gamedev">Game Dev</a>
+          <a href="#stickers">Adesivos</a>
+        </div>
+      </nav>
+    </section>
+
+    <section id="games">
+      <div class="section-title">
+        <span class="title-before"></span>
+        <h2>Games</h2>
+        <span class="title-after"></span>
+      </div>
+      <div class="container"><div class="shop-itens-container"></div></div>
+    </section>
+
+    <section id="art">
+      <div class="section-title">
+        <span class="title-before"></span>
+        <h2>Arte</h2>
+        <span class="title-after"></span>
+      </div>
+      <div class="container"><div class="shop-itens-container"></div></div>
+    </section>
+
+    <section id="gamedev">
+      <div class="section-title">
+        <span class="title-before"></span>
+        <h2>Game Dev</h2>
+        <span class="title-after"></span>
+      </div>
+      <div class="container"><div class="shop-itens-container"></div></div>
+    </section>
+
+    <section id="stickers">
+      <div class="section-title">
+        <span class="title-before"></span>
+        <h2>Adesivos</h2>
+        <span class="title-after"></span>
+      </div>
+      <div class="container"><div class="shop-itens-container"></div></div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/default.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #222;
+  font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.mobile,
+.visible {
+  display: flex !important;
+}
+
+.desktop,
+.hidden {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.section-title h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.section-title .title-before,
+.section-title .title-after {
+  flex: 1;
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none !important;
+  }
+
+  .desktop {
+    display: flex !important;
+  }
+}

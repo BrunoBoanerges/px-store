@@ -1,0 +1,135 @@
+.shop-itens-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: #3b3b3b;
+  margin: 20px;
+  height: 352px;
+}
+
+.shop-item .item-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.shop-item .item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop-item .shop-buy-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #385ec7;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  width: 100%;
+  margin: 10px 0 0 0;
+  transition: 0.3s ease-in-out;
+}
+
+.shop-item .shop-buy-btn:hover {
+  background-color: #d43939;
+}
+
+.shop-item .shop-buy-btn h4 {
+  text-transform: capitalize;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.shop-item .item-id,
+.shop-item .item-preview {
+  height: 30px;
+  top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item .item-id {
+  position: absolute;
+  left: 10px;
+  padding: 0 5px;
+  cursor: pointer;
+  background-color: #385ec7;
+  border-radius: 5px;
+}
+
+.shop-item .item-id p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.shop-item .item-preview {
+  position: absolute;
+  right: 10px;
+  background-color: #385ec7;
+  border-radius: 5px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  text-decoration: none;
+}
+
+.shop-item .item-preview:hover p {
+  display: flex;
+}
+
+.shop-item .item-preview img {
+}
+
+.shop-item .item-preview p {
+  color: white;
+  font-size: 14px;
+  display: none;
+  margin-right: 5px;
+  display: none;
+}
+
+.shop-item > h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.05px;
+  margin: 10px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.shop-item > b {
+  color: #d43939;
+  font-weight: bold;
+}
+
+.shop-item > b.item-discount {
+  text-decoration: line-through;
+  color: #fff;
+  opacity: 0.5;
+  font-weight: normal;
+}

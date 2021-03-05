@@ -1,0 +1,191 @@
+[
+  {
+    "id": 640,
+    "name": "Iris and the Giant",
+    "price": 90000000,
+    "original_price": null,
+    "preview_url": "https://store.steampowered.com/app/1127610/Iris_and_the_Giant/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1127610/header.jpg?t=1612607977",
+    "category": 0
+  },
+  {
+    "id": 639,
+    "name": "Werewolf: The Apocalypse - Heart of the Forest",
+    "price": 90000000,
+    "original_price": null,
+    "preview_url": "https://store.steampowered.com/app/1342620/Werewolf_The_Apocalypse__Heart_of_the_Forest/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1342620/header.jpg?t=1612166873",
+    "category": 0
+  },
+  {
+    "id": 638,
+    "name": "Train Station Renovation",
+    "original_price": null,
+    "price": 120000000,
+    "preview_url": "https://store.steampowered.com/app/914010/Train_Station_Renovation/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/526160/header.jpg?t=1611832863",
+    "category": 0
+  },
+  {
+    "id": 637,
+    "name": "The Wild Eight",
+    "price": 150000000,
+    "preview_url": "https://store.steampowered.com/app/526160/The_Wild_Eight/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/996770/header.jpg?t=1608814005",
+    "category": 0
+  },
+  {
+    "id": 635,
+    "name": "Moving Out",
+    "price": 240000000,
+    "preview_url": "https://store.steampowered.com/app/996770/Moving_Out/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/392110/header.jpg?t=1612532428",
+    "category": 0
+  },
+  {
+    "id": 634,
+    "name": "Endless Space® 2",
+    "price": 240000000,
+    "preview_url": "https://store.steampowered.com/app/392110/Endless_Space_2/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1045580/header.jpg?t=1603739593 ",
+    "category": 0
+  },
+  {
+    "id": 621,
+    "name": "Deleveled",
+    "price": 50000000,
+    "preview_url": "https://store.steampowered.com/app/1045580/Deleveled/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/828740/header.jpg?t=1591695822",
+    "category": 0
+  },
+  {
+    "id": 619,
+    "name": "Tales of the Neon Sea",
+    "price": 120000000,
+    "preview_url": "https://store.steampowered.com/app/828740/Tales_of_the_Neon_Sea/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1279630/header.jpg?t=1606206828",
+    "category": 0
+  },
+  {
+    "id": 618,
+    "name": "Vampire: The Masquerade - Shadows of New York",
+    "price": 120000000,
+    "preview_url": "https://store.steampowered.com/app/1279630/Vampire_The_Masquerade__Shadows_of_New_York/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/733790/header.jpg?t=1589284073",
+    "category": 0
+  },
+  {
+    "id": 617,
+    "name": "Not Tonight",
+    "price": 120000000,
+    "preview_url": "https://store.steampowered.com/app/733790/Not_Tonight/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1096570/header.jpg?t=1608796327",
+    "category": 0
+  },
+  {
+    "id": 616,
+    "name": "SONG OF HORROR COMPLETE EDITION",
+    "price": 360000000,
+    "preview_url": "https://store.steampowered.com/app/1096570/SONG_OF_HORROR_COMPLETE_EDITION/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/674500/header.jpg?t=1604591644",
+    "category": 0
+  },
+  {
+    "id": 615,
+    "name": "Total Tank Simulator",
+    "price": 114000000,
+    "preview_url": "https://store.steampowered.com/app/674500/Total_Tank_Simulator/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/774241/header.jpg?t=1605030257",
+    "category": 0
+  },
+  {
+    "id": 614,
+    "name": "Warhammer: Chaosbane",
+    "price": 350000000,
+    "preview_url": "https://store.steampowered.com/app/774241/Warhammer_Chaosbane/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/505230/header.jpg?t=1608503434",
+    "category": 0
+  },
+  {
+    "id": 613,
+    "name": "Pathologic 2",
+    "price": 90000000,
+    "preview_url": "https://store.steampowered.com/app/505230/Pathologic_2/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1047220/header.jpg?t=1587755039",
+    "category": 0
+  },
+  {
+    "id": 604,
+    "name": "Frog Detective 2: The Case of the Invisible Wizard",
+    "price": 30000000,
+    "preview_url": "https://store.steampowered.com/app/1047220/Frog_Detective_2_The_Case_of_the_Invisible_Wizard/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/963000/header.jpg?t=1587754874",
+    "category": 0
+  },
+  {
+    "id": 603,
+    "name": "The Haunted Island, a Frog Detective Game",
+    "price": 30000000,
+    "preview_url": "https://store.steampowered.com/app/963000/The_Haunted_Island_a_Frog_Detective_Game/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/792300/header.jpg?t=1606921222",
+    "category": 0
+  },
+  {
+    "id": 601,
+    "name": "The Beast Inside",
+    "price": 140000000,
+    "preview_url": "https://store.steampowered.com/app/792300/The_Beast_Inside/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1035560/header.jpg?t=1605097469",
+    "category": 0
+  },
+  {
+    "id": 599,
+    "name": "Struggling",
+    "price": 90000000,
+    "preview_url": "https://store.steampowered.com/app/1035560/Struggling/",
+    "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/427700/header.jpg?t=1598572246",
+    "category": 0
+  },
+  {
+    "id": 598,
+    "name": "Zwei: The Ilvard Insurrection",
+    "price": 100000000,
+    "preview_url": "https://store.steampowered.com/app/427700/Zwei_The_Ilvard_Insurrection/",
+    "image_url": "https://pbs.twimg.com/media/ElKvLV3XgAA2aIH?format=png&name=small",
+    "category": 0
+  },
+  {
+    "id": 584,
+    "name": "Pixel art  - Portrait/Avatar/Meio corpo by DBR",
+    "price": 100000000,
+    "preview_url": null,
+    "image_url": "https://steamcdn-a.akamaihd.net/steam/apps/665300/header.jpg?t=1599811957",
+    "category": 1
+  },
+  {
+    "id": 582,
+    "name": "Crie seu Avatar",
+    "price": "100,000,000",
+    "preview_url": null,
+    "image_url": "https://pbs.twimg.com/media/ElKvLV3XgAA2aIH?format=png&name=small",
+    "category": 1
+  },
+  {
+    "id": 562,
+    "name": "Sensor Toolkit",
+    "original_price": 200000000,
+    "price": 80000000,
+    "preview_url": "https://assetstore.unity.com/packages/tools/ai/sensor-toolkit-88036",
+    "image_url": "https://assetstorev1-prd-cdn.unity3d.com/key-image/4f172cab-f060-447e-a34c-8eb1430efa8c.webp",
+    "category": 2
+  },
+  {
+    "id": 561,
+    "name": "THOR Thunderstorm",
+    "original_price": 200000000,
+    "price": 80000000,
+    "preview_url": "https://assetstore.unity.com/packages/tools/particles-effects/thor-thunderstorm-103956",
+    "image_url": "https://assetstorev1-prd-cdn.unity3d.com/key-image/8af4f614-14d2-486e-8f41-927bad5248df.webp",
+    "category": 2
+  }
+]
