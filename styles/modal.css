@@ -1,0 +1,72 @@
+#modal-container .modal-fade {
+  position: fixed;
+  z-index: 199;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 250px;
+}
+
+#modal-buy h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d43939;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#modal-buy p,
+#modal-buy b {
+  color: #222;
+  max-width: 300px;
+  text-align: center;
+}
+
+#modal-buy b {
+  font-weight: bold;
+  color: #d43939;
+  margin: 10px 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#modal-buy a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #385ec7;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+#modal-buy a:hover{
+  background-color: #d43939;
+}
+
+#modal-buy a p {
+  color: #fff;
+}

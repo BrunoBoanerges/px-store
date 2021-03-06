@@ -5,19 +5,31 @@ const CATEGORIES = {
   GAMEDEV: 2,
   STICKERS: 3,
 };
+let ITEMS = [];
 
 function buyStuff(itemId) {
   navigator.clipboard.writeText(`!reservar ${itemId}`).then(() => {
-    const win = window.open(TWITCH_URL, "_blank");
-    win.focus();
+    $("#modal-container").removeClass("hidden");
+    $("#modal-buy").removeClass("hidden");
+    let txItem = $("#modal-buy b").text();
+    const item = ITEMS.find((i) => i.id === itemId);
+    txItem = txItem.replace("##id##", `${item.id}`);
+    txItem = txItem.replace("##name##", `${item.name.toLowerCase()}`);
+    $("#modal-buy b").text(txItem);
+
+    $("#modal-buy a").on("click", () => {
+      $("#modal-container").addClass("hidden");
+      $("#modal-buy").addClass("hidden");
+      $("#modal-buy b").text("##id## - ##name##");
+    });
   });
 }
 
 function copyId(itemId) {
   navigator.clipboard.writeText(`ID: ${itemId}`).then(() => {
-    $(`.shop-item .item-copy-msg[data-id='${itemId}']`).removeClass('hidden')
+    $(`.shop-item .item-copy-msg[data-id='${itemId}']`).removeClass("hidden");
     setTimeout(() => {
-      $('.shop-item .item-copy-msg').addClass('hidden')
+      $(".shop-item .item-copy-msg").addClass("hidden");
     }, 3000);
   });
 }
@@ -32,8 +44,15 @@ $(function () {
     $("#navigation nav .nav-itens").toggleClass("hidden visible");
   });
 
+  $("#modal-container .modal-fade").on("click", () => {
+    $("#modal-container").addClass("hidden");
+    $("#modal-buy").addClass("hidden");
+    $("#modal-buy b").text("##id## - ##name##");
+  });
+
   $.getJSON("./assets/itens.json", (data) => {
     const itens = data || [];
+    ITEMS = itens;
     const renderItens = itens.map((item) => {
       const htmlFragment = `
         <article class="shop-item shadow" data-aos="fade-in">

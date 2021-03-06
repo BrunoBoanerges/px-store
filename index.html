@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./styles/container.css" />
     <link rel="stylesheet" href="./styles/navigation.css" />
     <link rel="stylesheet" href="./styles/shop.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
     <link rel="stylesheet" href="./styles/default.css" />
   </head>
   <body>
@@ -71,6 +72,21 @@
       </div>
       <div class="container"><div class="shop-itens-container"></div></div>
     </section>
+
+    <div id="modal-container" class="hidden">
+      <div class="modal-fade"></div>
+      <article id="modal-buy" class="hidden">
+        <h2>Comprar item</h2>
+        <p>O comando para comprar o item</p>
+        <b>##id## - ##name##</b>
+        <p>foi copiado para a sua clipboard.</p>
+        <p>Cole o comando no chat da live para finalizar a sua compra.</p>
+
+        <a href="https://www.twitch.tv/player_dbr" rel="no-referer" target="_blank">
+          <p>OK</p>
+        </a>
+      </article>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
