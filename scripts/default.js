@@ -50,7 +50,7 @@ $(function () {
     $("#modal-buy b").text("##id## - ##name##");
   });
 
-  $.getJSON("./assets/itens.json", (data) => {
+  $.getJSON("./scripts/itens.json", (data) => {
     const itens = data || [];
     ITEMS = itens;
     const renderItens = itens.map((item) => {
@@ -148,3 +148,26 @@ $(function () {
     });
   });
 });
+
+// let elems = $(".item-box");
+// let json = [];
+// elems.each((index, element) => {
+//   const image_url = $(element).children(".box-header").css("background-image").replace(/url\(/gi, '').replace(/['"();]/gi, '');
+//   const id = $(element).children(".box-header").children('.id').text().replace(/ID: /gi, "");
+//   const name = $(element).children(".dados").children('.title').text();
+//   const price = $(element).children(".dados").children('.px').text().replace(/,/gi, "");
+//   const original_price = $(element).children(".dados").children('.pxold').children('s').text().replace(/,/gi, "");
+//   const preview_url = $(element).children(".dados").children('a').attr("href");
+
+//   json.push({
+//     image_url,
+//     id: parseInt(id, 10),
+//     name,
+//     price: price ? parseInt(price, 10) : null,
+//     original_price: original_price ? parseInt(original_price, 10) : null,
+//     preview_url,
+//     category: 0
+//   });
+// });
+
+// console.log(JSON.stringify(json));
