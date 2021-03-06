@@ -104,34 +104,6 @@
   animation: previewImg 1s ease;
 }
 
-@keyframes previewText {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes previewImg {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(-20deg);
-  }
-
-  50% {
-    transform: rotate(20deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 .shop-item .item-preview p {
   color: white;
   font-size: 14px;
@@ -173,4 +145,32 @@
 
 .shop:last-of-type {
   margin-bottom: 20px;
+}
+
+@keyframes previewText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes previewImg {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-20deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
