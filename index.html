@@ -14,13 +14,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/container.css" />
     <link rel="stylesheet" href="./styles/navigation.css" />
     <link rel="stylesheet" href="./styles/shop.css" />
     <link rel="stylesheet" href="./styles/default.css" />
   </head>
   <body>
-    <section id="navigation">
+    <section class="shop" id="navigation">
       <nav class="shadow">
         <a href="#">
           <img src="./assets/logo.png" class="logo" />
@@ -35,7 +36,7 @@
       </nav>
     </section>
 
-    <section id="games">
+    <section class="shop" id="games">
       <div class="section-title">
         <span class="title-before"></span>
         <h2>Games</h2>
@@ -44,7 +45,7 @@
       <div class="container"><div class="shop-itens-container"></div></div>
     </section>
 
-    <section id="art">
+    <section class="shop" id="art">
       <div class="section-title">
         <span class="title-before"></span>
         <h2>Arte</h2>
@@ -53,7 +54,7 @@
       <div class="container"><div class="shop-itens-container"></div></div>
     </section>
 
-    <section id="gamedev">
+    <section class="shop" id="gamedev">
       <div class="section-title">
         <span class="title-before"></span>
         <h2>Game Dev</h2>
@@ -62,7 +63,7 @@
       <div class="container"><div class="shop-itens-container"></div></div>
     </section>
 
-    <section id="stickers">
+    <section class="shop" id="stickers">
       <div class="section-title">
         <span class="title-before"></span>
         <h2>Adesivos</h2>
@@ -72,6 +73,10 @@
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./scripts/default.js"></script>
   </body>
 </html>
