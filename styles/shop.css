@@ -96,6 +96,10 @@
   text-decoration: none;
 }
 
+.shop-item .item-preview:hover {
+  background-color: #d43939;
+}
+
 .shop-item .item-preview:hover p {
   display: flex;
   animation: previewText 0.7s ease;

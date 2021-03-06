@@ -78,7 +78,7 @@ $(function () {
             <p>ID: ${item.id}</p>
           </div>
           <a class="item-preview ${item.preview_url ? "" : "hidden"}" 
-            rel="no-referer" 
+            rel="noreferrer" 
             target="_blank" 
             href="${item.preview_url}"
           >
