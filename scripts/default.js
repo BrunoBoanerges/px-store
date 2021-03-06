@@ -15,7 +15,10 @@ function buyStuff(itemId) {
 
 function copyId(itemId) {
   navigator.clipboard.writeText(`ID: ${itemId}`).then(() => {
-    //
+    $(`.shop-item .item-copy-msg[data-id='${itemId}']`).removeClass('hidden')
+    setTimeout(() => {
+      $('.shop-item .item-copy-msg').addClass('hidden')
+    }, 3000);
   });
 }
 
@@ -37,7 +40,7 @@ $(function () {
           <div class="item-img">
             <img src="${item.image_url}" />
           </div>
-          <h3>${item.name}</h3>
+          <h3>${item.name.toLowerCase()}</h3>
           <b 
             class="item-discount 
             ${item.original_price ? "" : "invisible"}"
@@ -48,6 +51,9 @@ $(function () {
           <div class="shop-buy-btn" onclick='buyStuff(${item.id})'>
             <img src="./assets/ic_cart.svg" />
             <h4>Comprar</h4>
+          </div>
+          <div class="item-copy-msg hidden" data-id="${item.id}">
+            <p>ID copiado!</p>
           </div>
           <div class="item-id" onclick='copyId(${item.id})'>
             <p>ID: ${item.id}</p>

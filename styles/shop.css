@@ -46,6 +46,7 @@
   width: 100%;
   margin: 10px 0 0 0;
   transition: 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .shop-item .shop-buy-btn:hover,
@@ -145,6 +146,31 @@
 
 .shop:last-of-type {
   margin-bottom: 20px;
+}
+
+.shop-item .item-copy-msg {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  background-color: #d43939;
+  border-radius: 5px;
+  height: 20px;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.shop-item .item-copy-msg:not(.hidden) {
+  animation: previewText .2s ease-in;
+}
+
+.shop-item .item-copy-msg p {
+  color: #fff;
+  font-size: 12px;
 }
 
 @keyframes previewText {
