@@ -133,8 +133,17 @@
 }
 
 .shop-item > b {
-  color: #d43939;
+  color: #fff;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item > b > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
 }
 
 .shop-item > b.item-discount {

@@ -44,6 +44,12 @@ $(function () {
     $("#navigation nav .nav-itens").toggleClass("hidden visible");
   });
 
+  $("#navigation nav .nav-itens a").on("click", () => {
+    if (window.innerWidth <= 768) {
+      $("#navigation nav .nav-itens").toggleClass("hidden visible");
+    }
+  });
+
   $("#modal-container .modal-fade").on("click", () => {
     $("#modal-container").addClass("hidden");
     $("#modal-buy").addClass("hidden");
@@ -66,7 +72,10 @@ $(function () {
           >
             ${numberWithCommas(item.original_price)}
           </b>
-          <b>${numberWithCommas(item.price)}</b>
+          <b>
+            <img src="./assets/ic_cube.svg" alt="">
+            ${numberWithCommas(item.price)}
+          </b>
           <div class="shop-buy-btn" onclick='buyStuff(${item.id})'>
             <img src="./assets/ic_cart.svg" />
             <h4>Comprar</h4>
