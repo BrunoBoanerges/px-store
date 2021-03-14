@@ -48,6 +48,15 @@ body {
   opacity: 0.3;
 }
 
+#copyright {
+  margin: 50px 0;
+}
+
+#copyright h2 {
+  color: #fff;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .mobile {
     display: none !important;

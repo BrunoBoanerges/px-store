@@ -70,6 +70,7 @@ $(function () {
             class="item-discount 
             ${item.original_price ? "" : "invisible"}"
           >
+            <img src="./assets/ic_cube.svg" alt="">
             ${numberWithCommas(item.original_price)}
           </b>
           <b>
